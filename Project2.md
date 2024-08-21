@@ -85,7 +85,15 @@
 
 
 
-[1](./img/1.png)
+
+
+
+
+![1](img/1.png)
+
+
+
+
 
 
 
@@ -94,7 +102,7 @@
 
 
 
-[2](./img/2.png)
+![2](img/2.png)
 
 
 
@@ -113,7 +121,7 @@
 
 
 
-[3](./img/3.png)
+![3](img/3.png)
 
 
 ***NOTE***: I did same for the second template
@@ -125,7 +133,7 @@
 
 
 
-[4](./img/4.png)
+![4](img/4.png)
 
 
 
@@ -142,7 +150,7 @@
 
 
 
-[5](./img/5.png)
+![5](img/5.png)
 
 
 
@@ -155,7 +163,7 @@
 
 
 
-[6](./img/6.png)
+![6](img/6.png)
 
 
 
@@ -182,12 +190,12 @@
 
 
 
-[7](./img/7.png)
+![7](img/7.png)
 
 
 
 
-[8](./img/8.png)
+![8](img/8.png)
 
 
 
@@ -214,7 +222,7 @@
 
 
 
-[9](./img/9.png)
+![9](img/9.png)
 
 
 
@@ -230,8 +238,22 @@
 
 
 
+
+
+
+
+
+
+
+
+
+<pre>
+<code>
+
  {
+
     listen 80;
+
     server_name example.com www.example.com;
 
     root /var/www/html/example.com;
@@ -243,6 +265,13 @@
 }
 
 
+</code>
+</pre>
+
+
+
+
+
 
 
 - Edited the root directive within my server block point to the directory where my downloaded website content is stored.
@@ -251,11 +280,11 @@
 
 
 
-[10](./img/10.png)
+![10](img/10.png)
 
 
 
-[10.1](./img/10.1.png)
+![10.1](img/10.1.png)
 
 
 
@@ -288,7 +317,7 @@
 
 
 
-[11](./img/11.png)
+![11](img/11.png)
 
 
 
@@ -310,7 +339,7 @@
 
 
 
-[13](./img/13.png)
+![13](img/13.png)
 
 
 
@@ -322,7 +351,7 @@
 
 
 
-[12](./img/12.png)
+![12](img/12.png)
 
 
 
@@ -330,7 +359,7 @@
 
 
 
-[14](./img/14.png)
+![14](img/14.png)
 
 
 
@@ -340,7 +369,7 @@
 
 
 
-[15](./img/15.png)
+![15](img/15.png)
 
 
 
@@ -366,19 +395,19 @@
 * ***character.okoko.click***
 
 
-[16.1](./img/16.1.png)
+![16.1](img/16.1.png)
 
 
 
 * ***newspot.okoko.click***
 
 
-
-[1]
-
+![16.2](img/16.2.png)
 
 
 
+
+***NOTE***: Both sites are not ***SECURE***
 
 
 ### CREATE CERBOT SSL CERTIFICATES FOR THE DOMAINS
@@ -391,6 +420,16 @@
 
  - ***sudo cerbot --nginx***
 
+
+
+![17](img/17.png)
+
+
+
+
+
+
+![18](img/18.png)
 
 
 
@@ -406,16 +445,28 @@
 
 
 
-
 * Visited the websites
 
+- ***character.okoko.click***
+
+
+![19](img/19.png)
+
+
+
+
+- ***newspot.okoko.click***
+
+
+
+![20](img/20.png)
 
 
 
 
 
 
-## The End of Project 2
+# The End of project 2
 
 
 
