@@ -439,9 +439,12 @@
 
 
 
-* Verified the website's SSL using the OpenSSL utility with this command;
+* Also on my terminal,  I verified both website's SSL using the OpenSSL utility with this command;
 
--  ***openssl s_client -connect cleaning.cloudghoul.online:443***
+
+-  ***openssl s_client -connect character.okoko.click:443***
+
+- ***openssl s_client -connect newspot.okoko.click:443***
 
 
 
