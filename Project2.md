@@ -2,7 +2,7 @@
 
 
 
-# SETTING UP A MULTIPLE STATIC WEBSITES ON A SINGLE SERVER USING NGINX VIRTUAL HOSTS
+# SETTING UP MULTIPLE STATIC WEBSITES ON A SINGLE SERVER USING NGINX VIRTUAL HOSTS
 
 
 ## In this project we will be setting up root domains and sub-domains of two websites on a single server using Nginx virtual host configuration;
