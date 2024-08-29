@@ -105,7 +105,7 @@
 
 
 
-* on my three terminals I ssh into the servers. Using one instance to one terminal (3 instances to 3 termainals)
+* on my three terminals I ssh into the servers. Using one instance to one terminal (3 instances to 3 terminals)
 
 
 
