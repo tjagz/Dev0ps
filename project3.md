@@ -492,7 +492,7 @@ I used the domain bought from www.namecheap.com;
 
 
 
-
+[Download or view the video](https://github.com/tjagz/Dev0ps/raw/master/img2/7.mp4)
 
 
 
