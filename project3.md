@@ -483,7 +483,7 @@ I used the domain bought from www.namecheap.com;
 
 
 <video width="600" controls>
-  <source src="img2/7.mov" type="video/quicktime">
+  <source src="img2/7..mov" type="video/quicktime">
   Your browser does not support the video tag.
 </video>
 
