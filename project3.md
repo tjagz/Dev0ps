@@ -82,7 +82,7 @@
 
 ***WHILE CREATING MY INSTANCES I NAME TAGGED THEM ACCORDING TO THE URL I DOWNLOADED SO HAS TO KNOW WHICH IS FOR WHICH AND NOT GET CONFUSED***
 
-* Instacne 1 : cafe
+* Instance 1 : cafe
 * Instance 2 : earth
 * Instance 3 : loadbalancer
 
