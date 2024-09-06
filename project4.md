@@ -361,13 +361,22 @@ CustomLog ${APACHE_LOG_DIR}/access.log combined
 
 * ***sudo nano /var/www/lamp/index.php***
 
-<pre><code>
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display PHP Code</title>
+</head>
+<body>
+    <pre><code>&lt;?php
 
 phpinfo();
 
-?>
-</code></pre>
+?&gt;</code></pre>
+</body>
+</html>
+
 
 
 * This created a new file. Copied and pasted the above PHP code into the new file, saved and closed file.
