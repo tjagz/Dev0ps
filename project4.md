@@ -366,9 +366,15 @@ CustomLog ${APACHE_LOG_DIR}/access.log combined
 
 
 <pre><code>
+
+
+
 <?php
 
 phpinfo();
+
+
+
 </code></pre>
 
 
