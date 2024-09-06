@@ -361,13 +361,12 @@ CustomLog ${APACHE_LOG_DIR}/access.log combined
 
 * ***sudo nano /var/www/lamp/index.php***
 
-
 <pre><code>
-
 <?php
 
 phpinfo();
 
+?>
 </code></pre>
 
 
