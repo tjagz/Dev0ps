@@ -332,6 +332,7 @@ CustomLog ${APACHE_LOG_DIR}/access.log combined
 
 <pre><code>
 
+
 <IfModule mod_dir.c>
     DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
 </IfModule>
@@ -364,13 +365,22 @@ CustomLog ${APACHE_LOG_DIR}/access.log combined
 * This created a new file. Copied and pasted the following PHP code into the new file, saved and closed file :
 
 
+
+
+
+
 <pre><code>
+
 
 <?php
 
 phpinfo();
 
+
 </code></pre>
+
+
+
 
 
 
@@ -380,12 +390,20 @@ phpinfo();
 
 
 
+
+
+
 * Went to my browser, refreshed my ip address page and confirmed the PHP;
 
 
 
 
+
+
 ![25](img3/25.png)
+
+
+
 
 
 
@@ -414,7 +432,12 @@ phpinfo();
 
 
 
+
+
 ![26](img3/26.png)
+
+
+
 
 
 
@@ -444,7 +467,11 @@ phpinfo();
 * ***sudo myseql -u root -p*** and I entered the password I set earlier(I used ***power***)
 
 
+
+
 ![28](img3/28.png)
+
+
 
 
 
@@ -466,6 +493,8 @@ phpinfo();
 * Granted all privileges to the created user (jagz@localhost):
 
 
+
+
 <pre><code>
 
 GRANT ALL PRIVILEGES ON wp_db.* TO jagz*localhost;
@@ -474,11 +503,19 @@ FLUSH PRIVILEGES;
 </code></pre>
 
 
+
+
 * Typed exit, to exit the MySQL shell. 
 
 
 
+
+
+
 ![29](img3/29.png)
+
+
+
 
 
 * Granted executable permissions recursively (-R) to the wordpress folder:
@@ -490,6 +527,8 @@ FLUSH PRIVILEGES;
 
 
 * Changed directory to the WordPress directory by running the command: 
+
+
 
 * ***cd wordpress***
 
@@ -507,7 +546,11 @@ FLUSH PRIVILEGES;
 
 
 
+
+
 ![31](img3/31.png)
+
+
 
 
 
@@ -517,13 +560,24 @@ FLUSH PRIVILEGES;
 
 
 
+
+
+
 ![32](img3/32.png)
+
+
+
 
 
 * Updated the database settings in the wp-config.php file by replacing placeholders like database_name_here, username_here, and password_here with my actual database details.
 
 
+
+
+
 ![33](img3/33.png)
+
+
 
 
 
@@ -532,7 +586,13 @@ FLUSH PRIVILEGES;
 * ***sudo nano /etc/apache2/sites-available/lamp.conf*** 
 
 
+
+
+
 ![34](img3/34.png)
+
+
+
 
 
 
@@ -540,13 +600,21 @@ FLUSH PRIVILEGES;
 
 
 
+
+
 ![35](img3/35.png)
+
+
+
 
 
 
 * Reloaded Apache for the changes to take effect: 
 
 * ***sudo systemctl reload apache2***
+
+
+
 
 
 
@@ -561,7 +629,12 @@ FLUSH PRIVILEGES;
 
 
 
+
+
 ![36](img3/36.png)
+
+
+
 
 
 
@@ -571,7 +644,13 @@ FLUSH PRIVILEGES;
 
 
 
+
+
+
 ![37](img3/37.png)
+
+
+
 
 
 
@@ -589,7 +668,11 @@ FLUSH PRIVILEGES;
 
 
 
+
+
 ![39](img3/39.png)
+
+
 
 
 
@@ -600,7 +683,13 @@ FLUSH PRIVILEGES;
 *  ***sudo nano /etc/apache2/sites-available/lamp.conf***
 
 
+
+
+
 * ***BEFORE***
+
+
+
 
 
 
@@ -609,7 +698,14 @@ FLUSH PRIVILEGES;
 
 
 
+
+
+
 * Ensured that the server settings in my Apache configuration points to my domain name(okoko.click), and that the document root accurately points to my WordPress directory. I made these adjustments, saved the changes and exited the editor.
+
+
+
+
 
 <pre><code>
 
@@ -635,10 +731,20 @@ FLUSH PRIVILEGES;
 
 
 
+
+
+
 * ***AFTER***
 
 
+
+
+
+
 ![41](img3/41.png)
+
+
+
 
 
 
@@ -651,6 +757,11 @@ FLUSH PRIVILEGES;
 * Added these lines to the file:
 
 
+
+
+
+
+
 <pre><code>
 
 /** MY DNS SETTINGS */
@@ -661,11 +772,22 @@ define('WP_SITEURL', 'http://<domain name>');
 </code></pre>
 
 
+
+
+
 * Replaced http://<domain name> with my actual domain name(okoko.click). Saved the changes and exited the editor.
 
 
 
+
+
+
+
 ![42](img3/42.png)
+
+
+
+
 
 
 
@@ -680,7 +802,14 @@ define('WP_SITEURL', 'http://<domain name>');
 
 
 
+
+
+
 ![43](img3/43.png)
+
+
+
+
 
 
 
@@ -689,7 +818,13 @@ define('WP_SITEURL', 'http://<domain name>');
 
 
 
+
+
+
 ![44](img3/44.png)
+
+
+
 
 
 
@@ -712,7 +847,15 @@ define('WP_SITEURL', 'http://<domain name>');
 
 
 
+
+
+
+
 ![45](img3/45.png)
+
+
+
+
 
 
 
