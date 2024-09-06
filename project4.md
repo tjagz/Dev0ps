@@ -362,27 +362,17 @@ CustomLog ${APACHE_LOG_DIR}/access.log combined
 * ***sudo nano /var/www/lamp/index.php***
 
 
-* This created a new file. Copied and pasted the following PHP code into the new file, saved and closed file :
-
-
-
-
+* This created a new file. Copied and pasted the following PHP code into the new file, saved and closed file
 
 
 <pre><code>
-
-
 <?php
 
 phpinfo();
-
-
 </code></pre>
 
 
-
-
-
+*  ***TEXTEDITOR***
 
 
 ![24](img3/24.png)
@@ -727,7 +717,7 @@ FLUSH PRIVILEGES;
 </VirtualHost>
 
 
-</code</pre>>
+</code</pre>
 
 
 
