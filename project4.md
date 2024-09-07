@@ -361,21 +361,13 @@ CustomLog ${APACHE_LOG_DIR}/access.log combined
 
 * ***sudo nano /var/www/lamp/index.php***
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Display PHP Code</title>
-</head>
-<body>
-    <pre><code>&lt;?php
+<code><pre>
+<?php
 
 phpinfo();
 
-?&gt;</code></pre>
-</body>
-</html>
+</code></pre>
+
 
 
 
