@@ -368,14 +368,14 @@ CustomLog ${APACHE_LOG_DIR}/access.log combined
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    
 </head>
 <body>
     <pre><code>&lt;?php
 
 phpinfo();
 
-&gt;</code></pre>
+</code></pre>
 </body>
 </html>
 
