@@ -362,7 +362,7 @@ CustomLog ${APACHE_LOG_DIR}/access.log combined
 * ***sudo nano /var/www/lamp/index.php***
 
 
-
+<pre><code>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -378,7 +378,7 @@ phpinfo();
 </code></pre>
 </body>
 </html>
-
+</code></pre>
 
 
 
