@@ -714,12 +714,12 @@ sudo nohup consul-template -config=/etc/nginx/conf.d/consul-template.hcl &
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Example</title>
+    <title></title>
 </head>
 <body>
     <h1>Video Example</h1>
     <video width="600" controls>
-        <source src="https://tjagz.github.io/Dev0ps/videos/37.1.mp4" type="video/mp4">
+        <source src="videos/37.1.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 </body>
