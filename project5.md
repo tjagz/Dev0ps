@@ -493,12 +493,7 @@ sudo nano /etc/consul.d/consul.hcl
 
 
 
-
-<video width="600" controls>
-  <source src="videos/27.0.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
+[Watch video](./videos/27.0.mp4)
 
 
 
@@ -708,7 +703,7 @@ sudo nohup consul-template -config=/etc/nginx/conf.d/consul-template.hcl &
 
 
 
-<a href="videos/37.1.mp4" target="_blank">Watch the video</a>
+[Watch video](./videos/37.1.mp4)
 
 
 
