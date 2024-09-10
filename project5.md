@@ -316,21 +316,24 @@ sudo apt update && sudo apt install consul
 - Copied the HTML content below into the index.html file. On the second server, replacd SERVER-01 with SERVER-02 in the HTML file to differentiate between the two backend servers. ***NOTE***: You can change the title to any title of your choice but i left mine as ***Kanekis Backend Sever***
 
 
-<pre><code>
 
 
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Kanekis Backend Server </title>
-</head>
-<body>
-	<h1>This is Backend SERVER-01</h1>
-</body>
-</html>
 
-
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Kanekis Backend Server&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;This is Backend SERVER-01&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </code></pre>
+
+
+
+
+
 
 
 
@@ -396,7 +399,7 @@ sudo nano /etc/consul.d/consul.hcl
 
 
 
-- Added the following contents to the file. Replaced <THE_ENCRYPTED_KEY> with your encryption key. Also, replace XX.XXX.XX.XX with my Consul server's IP address.
+- Added the following contents to the file. Replaced <THE_ENCRYPTED_KEY> with your encryption key. Also, replaced XX.XXX.XX.XX with my Consul server's IP address.
 
 
 
@@ -704,10 +707,17 @@ sudo nohup consul-template -config=/etc/nginx/conf.d/consul-template.hcl &
 
 
 
+
+
+
+
 <video width="600" controls>
   <source src="videos/37.1.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+
+
 
 
 
