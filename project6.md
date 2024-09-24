@@ -156,9 +156,7 @@ if __name__ == '__main__':
 ***nano index.html***
 
 
-<pre><code>
-
-
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -198,8 +196,7 @@ if __name__ == '__main__':
 </html>
 
 
-
-</code></pre>
+```
 
 
 
