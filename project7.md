@@ -150,7 +150,7 @@ Development and Testing: Provide a separate environment for development and test
 | Prod-App-Private-2c      | us-west-2c        | 10.0.0.80/28  | Private |
 | **DB Subnets**           |                   |               |         |
 | Prod-DB-Private-2a       | us-west-2a        | 10.0.0.96/28  | Private |
-| Prod-DB-Private-2b       | us-west-2c        | 10.0.0.112/28 | Private |
+| Prod-DB-Private-2b       | us-west-2b        | 10.0.0.112/28 | Private |
 | Prod-DB-Private-2c       | us-west-2c        | 10.0.0.128/28 | Private |
 | **Management Subnets**   |                   |               |         |
 | Prod-Mgmt-Private-2a     | us-west-2a        | 10.0.0.144/28 | Private |
