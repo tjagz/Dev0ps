@@ -52,8 +52,12 @@ Development and Testing: Provide a separate environment for development and test
 - The Following are the VPC details, region, and availability zones used for the project.
 
 - CIDR Block: 10.0.0.0/16
+
 - Region: us-west-2
+
 - Availability Zones: us-west-2a, us-west-2b, us-west-2c
+
+
 - Subnets: 15 Subnets (One per availability Zone)
 
 
@@ -61,7 +65,8 @@ Development and Testing: Provide a separate environment for development and test
 
 
 
-##  Logged into my AWS management console and changed my region to us-west-2 (oregon)
+##  Signed into my AWS management console and changed my region to us-west-2 (oregon)
+
 
 
 
@@ -136,9 +141,13 @@ Development and Testing: Provide a separate environment for development and test
 
 
 
-## Created subnets for public, application, database, management and platform with the table below;
+## Created the subnets for public, application, database, management and platform with the table below;
 
-| Subnet Name              | Availability Zone | CIDR Block    | Type    |
+|
+
+
+
+  Subnet Name              | Availability Zone | CIDR Block    | Type    |
 |--------------------------|-------------------|---------------|---------|
 | **Public**               |                   |               |         |
 | Prod-Web-Public-2a       | us-west-2a        | 10.0.0.0/28   | Public  |
@@ -150,7 +159,7 @@ Development and Testing: Provide a separate environment for development and test
 | Prod-App-Private-2c      | us-west-2c        | 10.0.0.80/28  | Private |
 | **DB Subnets**           |                   |               |         |
 | Prod-DB-Private-2a       | us-west-2a        | 10.0.0.96/28  | Private |
-| Prod-DB-Private-2b       | us-west-2c        | 10.0.0.112/28 | Private |
+| Prod-DB-Private-2b       | us-west-2b        | 10.0.0.112/28 | Private |
 | Prod-DB-Private-2c       | us-west-2c        | 10.0.0.128/28 | Private |
 | **Management Subnets**   |                   |               |         |
 | Prod-Mgmt-Private-2a     | us-west-2a        | 10.0.0.144/28 | Private |
@@ -161,6 +170,10 @@ Development and Testing: Provide a separate environment for development and test
 | Prod-Platform-Private-2b | us-west-2b        | 10.0.0.208/28 | Private |
 | Prod-Platform-Private-2c | us-west-2c        | 10.0.0.224/28 | Private |
 |                          |                   |               |         |
+
+
+
+
 
 
 
@@ -515,7 +528,9 @@ Development and Testing: Provide a separate environment for development and test
 
 
 
-# THE END OF PROJECT
+# THE END OF PROJECT 
+
+
 
 
 
