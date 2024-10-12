@@ -479,9 +479,9 @@ terraform apply -var-file=../../vars/dev/vpc.tfvars
 
 ## Validate VPC
 
-- Go to the AWS Console
+- Went to the AWS Console
 
-- Click on the created VPC and scroll down to view the Resource Map.
+- Clicked on the created VPC and navigated to view the Resource Map.
 
 - 15 subnets , 6 route tables, internet gateway and NAT gateway were created as shown below;
 
