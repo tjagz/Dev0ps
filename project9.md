@@ -227,7 +227,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 <pre><code>
 
-sudo ./docker-install.sh
+ ./docker-install.sh
 
 
 </code></pre>
@@ -285,6 +285,8 @@ git clone https://github.com/TobiOlajumoke/docker-flask
 cd docker-flask
 
 </code></pre>
+
+
 
 
 
@@ -376,6 +378,28 @@ This copies all the application files from your local directory to the /app dire
 
 
 ## Run the Docker Application
+
+
+- Using Ubuntu, our username is Ubuntu, you can check username by using this command ***whoami***
+
+
+- ***cat /etc/group*** shows the group you belong in and docker is not part of it 
+
+
+- ***id ubuntu*** you can see the groups you belong to
+
+
+- So to run the docker commands, i added ubuntu to the docker group with the commands below;
+
+
+<pre><code>
+
+sudo usermod -aG docker ubuntu
+
+</code></pre>
+
+
+- Using the command ***id ubuntu*** you can see the groups you belong to
 
 
 - Build the Docker image with command below;
